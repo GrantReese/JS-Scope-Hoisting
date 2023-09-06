@@ -5,10 +5,10 @@
 // locations to see where they are and aren't accessible.
 // Commit: "Demonstrated variable scope".
 
-function sayYep(){
+function scopeTest(){
     const yep = "yep";
     console.log(yep);
 
 }
-sayYep()
+scopeTest()
 console.log(yep)
