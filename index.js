@@ -8,27 +8,42 @@
 // console.log(yep)
 
 
-function hoistingTest1(){
-   if (true) {
-    var customerName = "John Smith";
-   }
-   console.log(customerName);
+// function hoistingTest1(){
+//    if (true) {
+//     var customerName = "John Smith";
+//    }
+//    console.log(customerName);
 
+// }
+
+// function hoistingTest2(){
+//     if (true) {
+//      let customerName = "John Smith";
+//     }
+//     console.log(customerName);
+ 
+//  }
+//  function hoistingTest3(){
+//     if (true) {
+//      const customerName = "John Smith";
+//     }
+//     console.log(customerName);
+ 
+//  }
+ 
+
+
+function hoistChallenge1(){
+    console.log(customerName);
+    let customerName = "James Cameron";
+    
 }
 
-function hoistingTest2(){
-    if (true) {
-     let customerName = "John Smith";
+function hoistChallenge2(){
+    function customerName(){ 
+        let customerName = "Howdy Doody"
+        console.log(customerName);  
     }
-    console.log(customerName);
- 
- }
- function hoistingTest3(){
-    if (true) {
-     const customerName = "John Smith";
-    }
-    console.log(customerName);
- 
- }
- 
- 
+    
+}
+customerName()
